@@ -1,0 +1,30 @@
+<input type="text" id="student">
+<button onclick="saveData()">
+    save
+</button>
+<button onclick="getData()">
+    Get Data
+</button>
+<p id="result"></p>
+<script>
+    function saveData(){
+        let name=
+            document.getElementById(
+                "studentName"
+            ).value;
+        localStorage.setItem(
+            "student",
+            name
+        );
+        alter("Data Saved");    
+    }
+    function getData(){
+        let student =
+        localStorage.setItem(
+            "student"
+        );
+        document
+        .getElementById("result")
+        .innerHTML=student;
+    }
+</script>

@@ -41,6 +41,18 @@ console.log(person.age);
 
 //Arrays
 console.log("Dt arrays");
-var numbers = c;symbolvalue["Phone,battery,watch,Mouse,moniter"];
+var numbers = c;symbolvalue["Phone","battery","watch","Mouse","moniter"];
 console.log(Number.lenght);
 console.log(numbers[4]);
+
+// Non parametric function
+function greek(){
+    console.log("Hello, world!");
+}
+greek(); // output:Hello,world!
+
+// paramatric function
+function add(a,b){
+    return a + b;
+}
+console.log(add(5,3));

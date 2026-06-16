@@ -21,3 +21,5 @@ do{
     count++;
 }
 while(count<=10)
+    console.log("output do.while..while");
+    
